@@ -36,7 +36,7 @@ Is a `Object` or `null`
 - `match origin protocol` (`Boolean`): is for match protocol. (`false`)
 - `maxHttpBufferSize` (`Number`): how many bytes or characters a message can be when polling, before closing the session (to avoid DoS). Default value is `10E7`.
 - `origins` (`String`): start the connections. (`"*:*"`)
-- `path` (`String`): is the path with connection start. (`/`)
+- `path` (`String`): is the path with connection start. (`/socket.io`)
 - `perMessageDeflate` (`Object|Boolean`): parameters of the WebSocket permessage-deflate extension (see [ws module](https://github.com/einaros/ws) api docs). Set to `false` to disable. (`true`)
 - `pingInterval` (`Number`): how many ms before sending a new ping packet (`25000`)
 - `pingTimeout` (`Number`): how many ms without a pong packet to consider the connection closed (`60000`)
